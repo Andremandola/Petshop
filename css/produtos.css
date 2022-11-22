@@ -1,0 +1,25 @@
+main section ul li{
+    display: inline-block;
+    width: 30%;
+    min-width: 230px;
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    vertical-align: top;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin: 0px 2px 2px 0px;
+    box-sizing: border-box;
+    
+}
+
+main section ul li h3{
+    font-size: 23px;
+}
+
+main section ul li img{
+    width: 80px; 
+}

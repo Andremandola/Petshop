@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Sapeção</title>
+    <link rel="stylesheet" href="css/sytle.css">
+    <link rel="stylesheet" href="css/contatos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Roboto: família= Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700 & display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <h1>Petshop Sapeção</h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="produtos.html">Produtos</a></li>
+                <li> <a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <img src="banner.jpg" alt="banner" id="banner">
+            <h2>Contatos</h2>
+            <form>
+                <label for="Nome">Nome:</label>
+                <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="email@dominio.com.br" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="Telefone" id="telefone" placeholder="(XX) XXXX-XXXX" required>
+
+                <label for="mensagem">Digite sua mensagem:</label>
+
+                <textarea name="mensagem" id="mensagem" cols="60" rows="10"></textarea required>
+                
+                <fieldset>
+                    <legend>Para quem é a mensagem?</legend>
+                    <input type="radio" name="radio-vet" id="radio-pet-shop" checked>
+                    <label for="radio-pet-shop" class="label-radios">Petshop</label>
+
+                    <input type="radio" name="radio-vet" id="radio-vet">
+                    <label for="radio-vet" class="label-radios">Veterinário</label>
+                </fieldset>
+
+                <input type="submit" value="Enivar">
+
+            </form>
+        </section>
+    </main>
+    <footer > 
+        <div class="d-flex container">
+            <address class="endereço flex-2-col"  style="min-width: 250px;">
+                R. Conselheiro Ribas, 386 <br>
+                Vila Anastácio, São Paulo - SP <br>
+                CEP: 05093-060 
+            </address>
+            <div class="endereço flex-2-col">
+                <span>Telefone:</span>
+                <a href="tel:+55113832-5565">(11) 3832-5565</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
